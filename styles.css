@@ -37,10 +37,11 @@ body {
 }
 
 .resume {
-  width: 800px;
+  width: 100%;
   height: auto;
   display: flex;
-  margin: 50px auto;
+  /* margin: 5px; */
+  
 }
 
 .text a{
@@ -49,19 +50,26 @@ body {
 }
 
 .resume .resume_left {
-  width: 280px;
+  width: 45%;
   background: #9e0150;
+  padding-top: 35px;
 }
 
 .resume .resume_left .resume_profile {
-  width: 100%;
+  width: 90%;
   height: 280px;
-  border: 2px solid #9e0150;
+  border: 5px solid #0bb5f4;
+  background-color: #fbfbfb;
+  margin: auto;
 }
 
 .resume .resume_left .resume_profile img {
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  height: 250px;
+  margin-top: 10px;
+  margin-left: 115px;
+  border: #9e0150 5px solid;
+  border-radius: 60%;
 }
 
 .resume .resume_left .resume_content {
@@ -161,9 +169,10 @@ body {
 }
 
 .resume .resume_right {
-  width: 520px;
+  width: 60%;
   background: #fff;
-  padding: 25px;
+  padding: 10px;
+
 }
 
 .resume .resume_right .bold {
